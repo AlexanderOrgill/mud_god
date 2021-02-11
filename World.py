@@ -21,7 +21,7 @@ class World:
         self.over_grid = [['0' for x in range(0, 45)] for y in range(0, 30)]
         self.cursor_grid = [['0' for x in range(0, 45)] for y in range(0, 30)]
         self.cursor = Cursor(352, 240)
-        self.control_panel = pygame.Surface((720, 0))
+        self.control_panel = pygame.Surface((180, 480))
         self.view_x = 0
         self.view_y = 0
 
